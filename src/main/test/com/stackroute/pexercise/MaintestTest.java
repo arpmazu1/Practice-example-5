@@ -38,7 +38,7 @@ public class MaintestTest {
     }
 
     @Test
-    public void givenMapStringShouldReturnCorrectOutput() {
+    public void givenStudentDetailsShouldReturnCorrectOutput() {
         //arange
         //Act
         List<Student> studentDetails = new ArrayList<>();
@@ -53,7 +53,7 @@ public class MaintestTest {
 
     }
     @Test
-    public void givenNullArrayLisrShouldReturnCorrectOutput() {
+    public void givenNullArrayLisrShouldReturnNullOutput() {
         //arange
         //Act
         List<Student> studentDetails = new ArrayList<>();
